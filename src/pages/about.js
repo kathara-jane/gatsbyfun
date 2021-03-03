@@ -1,17 +1,12 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import Layout from '../components/layout'
 
-const About = () => {
+const AboutPage = () => {
   return (
-  <>
-  <h1>About</h1>
-  <h2>Name: Katherine Sanborn</h2>
-  <h2>Job: Software Engineer</h2>
-  <Link to='https://gatsbyfunmain.gtsb.io/'>
-    Go to Home page
-  </Link>
-  </>
+    <Layout pageTitle="About Me">
+      <p>Hi I'm Katherine and I'm a Software Engineer</p>
+    </Layout>
   )
 }
 
-export default About
+export default AboutPage
