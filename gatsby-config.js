@@ -5,5 +5,8 @@ module.exports = {
   plugins: [
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-google-gtag",
+    "gatsby-plugin-manifest",
   ],
 };
